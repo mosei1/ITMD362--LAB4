@@ -29,15 +29,11 @@ footer, header, hgroup, menu, nav {
 display: block;
 }
 body{
-  border: none;
-  height: auto;
   padding: 70px;
-  width: 70%;
   background-color: #DCDCDC;
-  margin-bottom: 20px;
+  padding: 40px;
+  text-align: center;
   display: block;
-  padding-right: 40px;
-  border: none;
   text-align: center;
 }
 h1{
@@ -57,7 +53,7 @@ fieldset{
   font-style: normal;
   background-color: #939393;
   margin: 25px;
-  text-align: left;
+  text-align: center;
 }
 textarea select{
   width: 80%;
