@@ -25,38 +25,27 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav {
-display: block;
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
 }
-body{
-  padding: 70px;
-  background-color: #DCDCDC;
-  padding: 40px;
-  text-align: center;
-  display: block;
-  text-align: center;
+html {
+	line-height: 1;
 }
-h1{
-  display: block;
-  font-family: "Satisfy",cursive;
-  font-size: 50px;
-  text-align: center;
+body {
+  line-height: inherit;
 }
-
-fieldset{
-  letter-spacing: 3px;
-  font-family: "Sacramento",cursive;
-  font-size: 40px;
-  line-height: 1.6em;
-  letter-spacing: .5px;
-  font-weight: 300;
-  font-style: normal;
-  background-color: #939393;
-  margin: 25px;
-  text-align: center;
+ol, ul {
+	list-style: none;
 }
-textarea select{
-  padding: 40px;
-  font-size: 16px;
-  height: auto;
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
